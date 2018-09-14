@@ -12,8 +12,10 @@ Imports:
     ggplot2,
     dplyr,
     purrr,
-    tidyr
+    tidyr,
+    gmodels
 Depends:
     dplyr,
     purrr,
-    ggplot2
+    ggplot2,
+    gmodels
