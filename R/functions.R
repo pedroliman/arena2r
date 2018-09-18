@@ -114,6 +114,7 @@ plot_scatter = function(sim_results, x_variable, y_variable) {
 
 }
 
+## [![Coverage Status](https://img.shields.io/codecov/c/github/pedroliman/arena2r/master.svg)](https://codecov.io/github/pedroliman/arena2r?branch=master)
 
 
 #' Get Statistics Summary

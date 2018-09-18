@@ -19,5 +19,6 @@ Depends:
     purrr,
     ggplot2,
     gmodels
-Suggests: testthat
+Suggests: testthat,
+    covr
 RoxygenNote: 6.1.0
