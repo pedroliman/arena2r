@@ -3,6 +3,8 @@
 arena2r
 =======
 
+[![Travis-CI Build Status](https://travis-ci.org/pedroliman/arena2r.svg?branch=master)](https://travis-ci.org/pedroliman/arena2r)
+
 The goal of arena2r is to facilitate the analysis of Arena Simulation Software output in R. This package will be usefull to you, if:
 
 1.  You are an useR;

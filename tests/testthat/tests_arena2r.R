@@ -15,7 +15,7 @@ plot_conf = supressWarnings(arena2r::plot_confint(results, "Entity 1.NumberIn"))
 plot_scat = supressWarnings(arena2r::plot_scatter(results, "Entity 1.NumberIn", "Entity 1.NumberOut"))
 
 test_that("get_simulation_results retorna data.frame com 4 colunas", {
-  expect_equal(length(names(results)), 4)
+  expect_equal(length(names(results)), 2)
   expect_type(object = results, type = "list")
 })
 
