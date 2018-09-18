@@ -8,11 +8,11 @@ my_path = getwd()
 
 results = arena2r::get_simulation_results(path = my_path)
 
-summary = suppressWarnings(arena2r::get_statistics_summary(sim_results = results))
+summary = arena2r::get_statistics_summary(sim_results = results)
 
-plot_conf = supressWarnings(arena2r::plot_confint(results, "Entity 1.NumberIn"))
+plot_conf = arena2r::plot_confint(results, "Entity 1.NumberIn")
 
-plot_scat = supressWarnings(arena2r::plot_scatter(results, "Entity 1.NumberIn", "Entity 1.NumberOut"))
+plot_scat = arena2r::plot_scatter(results, "Entity 1.NumberIn", "Entity 1.NumberOut")
 
 test_that("get_simulation_results retorna data.frame com 4 colunas", {
   expect_equal(length(names(results)), 4)

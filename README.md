@@ -5,7 +5,7 @@ arena2r
 
 [![Travis-CI Build Status](https://travis-ci.org/pedroliman/arena2r.svg?branch=master)](https://travis-ci.org/pedroliman/arena2r)
 
-Texto do Coverage
+[![Coverage Status](https://img.shields.io/codecov/c/github/pedroliman/arena2r/master.svg)](https://codecov.io/github/pedroliman/arena2r?branch=master)
 
 The goal of arena2r is to facilitate the analysis of Arena Simulation Software output in R. This package will be usefull to you, if:
 

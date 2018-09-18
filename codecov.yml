@@ -1,1 +1,4 @@
 comment: false
+
+codecov:
+  token: ce5fd0da-1be8-436a-b64b-3fc29a2d2b4e
