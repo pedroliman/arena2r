@@ -5,8 +5,6 @@ arena2r
 
 [![Travis-CI Build Status](https://travis-ci.org/pedroliman/arena2r.svg?branch=master)](https://travis-ci.org/pedroliman/arena2r)
 
-[![Coverage Status](https://img.shields.io/codecov/c/github/pedroliman/arena2r/master.svg)](https://codecov.io/github/pedroliman/arena2r?branch=master)
-
 The goal of arena2r is to facilitate the analysis of Arena Simulation Software output in R. This package will be usefull to you, if:
 
 1.  You are an useR;
@@ -42,6 +40,7 @@ Follow these steps to get Arena simulation scenarios to R:
 # Load the library:
 
 library(arena2r)
+#> Loading required package: ggplot2
 #> Loading required package: dplyr
 #> 
 #> Attaching package: 'dplyr'
@@ -52,15 +51,13 @@ library(arena2r)
 #> 
 #>     intersect, setdiff, setequal, union
 #> Loading required package: purrr
-#> Loading required package: ggplot2
-#> Loading required package: gmodels
 library(ggplot2)
 
 # Define the path to your folder with csv files. In my case, it's here:
 
 # If you don't have any Arena csv files to play with, you can download my files in this repository.
 
-my_path = paste0(getwd(), "/examples/Arena14")
+my_path = paste0(getwd(), "/files/Arena14")
 
 # Then, get a tidy results data.frame out of your files!
 
@@ -137,10 +134,11 @@ knitr::kable(head(statistics_summary))
 | SCENARIO 1 | Entity 1.TotalTime |   11.15272|    9.730454|    9.341412|    12.96402|    0.8856239|    5.161059|   25.2438|  0.0794088|
 | SCENARIO 1 | Entity 1.TranTime  |    0.00000|    0.000000|    0.000000|     0.00000|    0.0000000|    0.000000|    0.0000|        NaN|
 
-Whishlist
----------
+Wishlist
+--------
 
--   The package won't run different simulations for you based on a Design of Experiments (though it might be highly desirable);
+<!-- The following functions aren't available in the package, but are desirable. If you're willing to contribute with this package, please considering working on these features. -->
+-   The package won't run different simulations for you based on a Design of Experiments;
 -   There is no guarantee that the package will acomodate future changes in the csv format exported by Arena. The package is tested with the Arena 14.00 version;
 -   The package only uses the standard csv pattern (If you are Brazillian like me, it's easier to change your regional configurations).
 

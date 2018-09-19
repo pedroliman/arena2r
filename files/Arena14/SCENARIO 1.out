@@ -1,0 +1,1674 @@
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 1 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.9920     (Insuf)    1.2657     2.6582        220    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        220    
+Entity 1.WaitTime                           5.1224     (Insuf)    .00000     15.538        220    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        220    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        220    
+Entity 1.TotalTime                          7.1145     (Insuf)    1.4739     17.509        220    
+Process 1.Queue.WaitingTime                 3.9951     (Insuf)    .00000     14.042        225    
+Process 2.Queue.WaitingTime                 1.2501     (Insuf)    .00000     5.1430        221    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                6.9343     (Corr)     .00000     18.000     13.000    
+Resource 1.NumberBusy                       .91537     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .91537     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .93256     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .93256     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               3.9140     (Corr)     .00000     15.000     8.0000    
+Process 2.Queue.NumberInQueue               1.1723     (Corr)     .00000     5.0000     3.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           233.00    
+Entity 1.NumberOut                          220.00    
+Resource 1.NumberSeized                     225.00    
+Resource 1.ScheduledUtilization             .91537    
+Resource 2.NumberSeized                     221.00    
+Resource 2.ScheduledUtilization             .93256    
+System.NumberOut                            220.00    
+
+Beginning replication 2 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 2 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.9964     (Insuf)    1.2580     2.7041        218    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        218    
+Entity 1.WaitTime                           6.5804     (Insuf)    .00000     19.786        218    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        218    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        218    
+Entity 1.TotalTime                          8.5768     (Insuf)    1.7255     21.694        218    
+Process 1.Queue.WaitingTime                 5.8848     (Insuf)    .00000     17.810        223    
+Process 2.Queue.WaitingTime                 .90827     (Insuf)    .00000     3.5323        219    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                8.8020     (Corr)     .00000     30.000     29.000    
+Resource 1.NumberBusy                       .91267     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .91267     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .92266     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .92266     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               6.1183     (Corr)     .00000     25.000     24.000    
+Process 2.Queue.NumberInQueue               .84842     (Corr)     .00000     4.0000     3.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           247.00    
+Entity 1.NumberOut                          218.00    
+Resource 1.NumberSeized                     223.00    
+Resource 1.ScheduledUtilization             .91267    
+Resource 2.NumberSeized                     219.00    
+Resource 2.ScheduledUtilization             .92266    
+System.NumberOut                            218.00    
+
+Beginning replication 3 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 3 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.9659     (Insuf)    1.1998     2.8474        225    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        225    
+Entity 1.WaitTime                           4.2069     (Insuf)    .00000     10.344        225    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        225    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        225    
+Entity 1.TotalTime                          6.1729     (Insuf)    1.1998     12.646        225    
+Process 1.Queue.WaitingTime                 3.2089     (Insuf)    .00000     10.344        228    
+Process 2.Queue.WaitingTime                 1.0187     (Insuf)    .00000     5.1043        226    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.9756     (Corr)     .00000     14.000     14.000    
+Resource 1.NumberBusy                       .93117     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .93117     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .92464     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .92464     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               3.1586     (Corr)     .00000     11.000     11.000    
+Process 2.Queue.NumberInQueue               .96118     (Corr)     .00000     6.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           239.00    
+Entity 1.NumberOut                          225.00    
+Resource 1.NumberSeized                     228.00    
+Resource 1.ScheduledUtilization             .93117    
+Resource 2.NumberSeized                     226.00    
+Resource 2.ScheduledUtilization             .92464    
+System.NumberOut                            225.00    
+
+Beginning replication 4 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 4 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.9867     (Insuf)    1.2505     2.7321        226    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        226    
+Entity 1.WaitTime                           14.983     (Insuf)    .00000     31.089        226    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        226    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        226    
+Entity 1.TotalTime                          16.969     (Insuf)    1.7883     33.358        226    
+Process 1.Queue.WaitingTime                 14.185     (Insuf)    .00000     30.294        229    
+Process 2.Queue.WaitingTime                 1.0028     (Insuf)    .00000     2.7913        227    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                18.307     (Corr)     .00000     36.000     35.000    
+Resource 1.NumberBusy                       .95104     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .95104     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .93294     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .93294     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               15.472     (Corr)     .00000     33.000     32.000    
+Process 2.Queue.NumberInQueue               .95060     (Corr)     .00000     3.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           261.00    
+Entity 1.NumberOut                          226.00    
+Resource 1.NumberSeized                     229.00    
+Resource 1.ScheduledUtilization             .95104    
+Resource 2.NumberSeized                     227.00    
+Resource 2.ScheduledUtilization             .93294    
+System.NumberOut                            226.00    
+
+Beginning replication 5 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 5 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.9885     (Insuf)    1.1910     2.7882        231    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        231    
+Entity 1.WaitTime                           13.633     (Insuf)    .00000     30.988        231    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        231    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        231    
+Entity 1.TotalTime                          15.622     (Insuf)    1.6123     33.102        231    
+Process 1.Queue.WaitingTime                 8.7071     (Insuf)    .00000     22.576        242    
+Process 2.Queue.WaitingTime                 5.4198     (Insuf)    .00000     9.7597        232    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                17.136     (Corr)     .00000     37.000     33.000    
+Resource 1.NumberBusy                       .98018     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .98018     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .97721     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .97721     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               9.7836     (Corr)     .00000     26.000     22.000    
+Process 2.Queue.NumberInQueue               5.3950     (Corr)     .00000     11.000     9.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           264.00    
+Entity 1.NumberOut                          231.00    
+Resource 1.NumberSeized                     242.00    
+Resource 1.ScheduledUtilization             .98018    
+Resource 2.NumberSeized                     232.00    
+Resource 2.ScheduledUtilization             .97721    
+System.NumberOut                            231.00    
+
+Beginning replication 6 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 6 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.9674     (Insuf)    1.3542     2.6938        239    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        239    
+Entity 1.WaitTime                           12.572     (Insuf)    .00000     23.988        239    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        239    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        239    
+Entity 1.TotalTime                          14.540     (Insuf)    1.9540     25.832        239    
+Process 1.Queue.WaitingTime                 10.930     (Insuf)    .00000     22.157        245    
+Process 2.Queue.WaitingTime                 1.8013     (Insuf)    .00000     4.5192        240    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                15.880     (Corr)     .00000     30.000     27.000    
+Resource 1.NumberBusy                       .99733     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .99733     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .98879     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .98879     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               12.061     (Corr)     .00000     25.000     21.000    
+Process 2.Queue.NumberInQueue               1.8336     (Corr)     .00000     5.0000     4.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           266.00    
+Entity 1.NumberOut                          239.00    
+Resource 1.NumberSeized                     245.00    
+Resource 1.ScheduledUtilization             .99733    
+Resource 2.NumberSeized                     240.00    
+Resource 2.ScheduledUtilization             .98879    
+System.NumberOut                            239.00    
+
+Beginning replication 7 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 7 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             2.0319     (Insuf)    1.1982     2.7724        222    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        222    
+Entity 1.WaitTime                           6.3122     (Insuf)    .00000     16.449        222    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        222    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        222    
+Entity 1.TotalTime                          8.3441     (Insuf)    1.6407     18.655        222    
+Process 1.Queue.WaitingTime                 3.8880     (Insuf)    .00000     11.432        223    
+Process 2.Queue.WaitingTime                 2.3969     (Insuf)    .00000     5.9586        223    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                7.7245     (Corr)     .00000     18.000     1.0000    
+Resource 1.NumberBusy                       .93161     (Insuf)    .00000     1.0000     .00000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .93161     (Insuf)    .00000     1.0000     .00000    
+Resource 2.NumberBusy                       .95308     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .95308     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               3.6126     (Corr)     .00000     13.000     .00000    
+Process 2.Queue.NumberInQueue               2.2271     (Corr)     .00000     6.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           223.00    
+Entity 1.NumberOut                          222.00    
+Resource 1.NumberSeized                     223.00    
+Resource 1.ScheduledUtilization             .93161    
+Resource 2.NumberSeized                     223.00    
+Resource 2.ScheduledUtilization             .95308    
+System.NumberOut                            222.00    
+
+Beginning replication 8 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 8 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             2.0320     (Insuf)    1.3093     2.8204        221    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        221    
+Entity 1.WaitTime                           9.8236     (Insuf)    .00000     22.933        221    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        221    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        221    
+Entity 1.TotalTime                          11.855     (Insuf)    1.3093     24.542        221    
+Process 1.Queue.WaitingTime                 8.8619     (Insuf)    .00000     19.761        226    
+Process 2.Queue.WaitingTime                 1.1269     (Insuf)    .00000     4.1634        222    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                11.523     (Corr)     .00000     23.000     11.000    
+Resource 1.NumberBusy                       .95119     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .95119     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .94227     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .94227     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               8.5724     (Corr)     .00000     19.000     6.0000    
+Process 2.Queue.NumberInQueue               1.0576     (Corr)     .00000     4.0000     3.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           232.00    
+Entity 1.NumberOut                          221.00    
+Resource 1.NumberSeized                     226.00    
+Resource 1.ScheduledUtilization             .95119    
+Resource 2.NumberSeized                     222.00    
+Resource 2.ScheduledUtilization             .94227    
+System.NumberOut                            221.00    
+
+Beginning replication 9 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 9 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.9748     (Insuf)    1.2738     2.7181        240    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        240    
+Entity 1.WaitTime                           10.145     (Insuf)    .00000     18.739        240    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        240    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        240    
+Entity 1.TotalTime                          12.120     (Insuf)    1.4060     20.290        240    
+Process 1.Queue.WaitingTime                 5.8699     (Insuf)    .00000     11.555        243    
+Process 2.Queue.WaitingTime                 4.2161     (Insuf)    .00000     8.1343        241    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                12.172     (Corr)     .00000     21.000     4.0000    
+Resource 1.NumberBusy                       .99471     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .99471     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .99116     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .99116     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               5.9506     (Corr)     .00000     13.000     1.0000    
+Process 2.Queue.NumberInQueue               4.2356     (Corr)     .00000     9.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           244.00    
+Entity 1.NumberOut                          240.00    
+Resource 1.NumberSeized                     243.00    
+Resource 1.ScheduledUtilization             .99471    
+Resource 2.NumberSeized                     241.00    
+Resource 2.ScheduledUtilization             .99116    
+System.NumberOut                            240.00    
+
+Beginning replication 10 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 10 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.9932     (Insuf)    1.1693     2.6741        227    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        227    
+Entity 1.WaitTime                           7.8424     (Insuf)    .00000     15.691        227    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        227    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        227    
+Entity 1.TotalTime                          9.8356     (Insuf)    1.5404     17.596        227    
+Process 1.Queue.WaitingTime                 7.0205     (Insuf)    .00000     13.916        231    
+Process 2.Queue.WaitingTime                 .88236     (Insuf)    .00000     3.3770        228    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                9.6452     (Corr)     .00000     18.000     11.000    
+Resource 1.NumberBusy                       .96307     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .96307     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .93979     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .93979     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               6.8943     (Corr)     .00000     14.000     7.0000    
+Process 2.Queue.NumberInQueue               .84809     (Corr)     .00000     4.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           238.00    
+Entity 1.NumberOut                          227.00    
+Resource 1.NumberSeized                     231.00    
+Resource 1.ScheduledUtilization             .96307    
+Resource 2.NumberSeized                     228.00    
+Resource 2.ScheduledUtilization             .93979    
+System.NumberOut                            227.00    
+
+Beginning replication 11 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 11 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.9952     (Insuf)    1.1681     2.7073        222    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        222    
+Entity 1.WaitTime                           10.063     (Insuf)    .00000     21.953        222    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        222    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        222    
+Entity 1.TotalTime                          12.058     (Insuf)    1.3012     23.956        222    
+Process 1.Queue.WaitingTime                 9.0221     (Insuf)    .00000     19.821        228    
+Process 2.Queue.WaitingTime                 1.0223     (Insuf)    .00000     4.3651        223    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                11.446     (Corr)     .00000     22.000     12.000    
+Resource 1.NumberBusy                       .94566     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .94566     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .92407     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .92407     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               8.5979     (Corr)     .00000     19.000     6.0000    
+Process 2.Queue.NumberInQueue               .97901     (Corr)     .00000     5.0000     4.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           234.00    
+Entity 1.NumberOut                          222.00    
+Resource 1.NumberSeized                     228.00    
+Resource 1.ScheduledUtilization             .94566    
+Resource 2.NumberSeized                     223.00    
+Resource 2.ScheduledUtilization             .92407    
+System.NumberOut                            222.00    
+
+Beginning replication 12 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 12 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.9931     (Insuf)    1.3648     2.5880        235    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        235    
+Entity 1.WaitTime                           18.489     (Insuf)    .00000     31.416        235    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        235    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        235    
+Entity 1.TotalTime                          20.482     (Insuf)    1.9890     33.509        235    
+Process 1.Queue.WaitingTime                 15.815     (Insuf)    .00000     30.217        241    
+Process 2.Queue.WaitingTime                 2.9999     (Insuf)    .00000     6.3461        236    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                22.698     (Corr)     .00000     39.000     35.000    
+Resource 1.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      1.0000     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .97825     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .97825     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               17.740     (Corr)     .00000     32.000     29.000    
+Process 2.Queue.NumberInQueue               2.9798     (Corr)     .00000     7.0000     4.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           270.00    
+Entity 1.NumberOut                          235.00    
+Resource 1.NumberSeized                     241.00    
+Resource 1.ScheduledUtilization             1.0000    
+Resource 2.NumberSeized                     236.00    
+Resource 2.ScheduledUtilization             .97825    
+System.NumberOut                            235.00    
+
+Beginning replication 13 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 13 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.9949     (Insuf)    1.2438     2.6842        227    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        227    
+Entity 1.WaitTime                           7.3857     (Insuf)    .00000     15.272        227    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        227    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        227    
+Entity 1.TotalTime                          9.3807     (Insuf)    1.4935     17.335        227    
+Process 1.Queue.WaitingTime                 6.4665     (Insuf)    .00000     12.689        231    
+Process 2.Queue.WaitingTime                 .98728     (Insuf)    .00000     2.8868        228    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                9.3763     (Corr)     .00000     19.000     18.000    
+Resource 1.NumberBusy                       .96013     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .96013     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .94172     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .94172     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               6.5276     (Corr)     .00000     15.000     14.000    
+Process 2.Queue.NumberInQueue               .94685     (Corr)     .00000     3.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           245.00    
+Entity 1.NumberOut                          227.00    
+Resource 1.NumberSeized                     231.00    
+Resource 1.ScheduledUtilization             .96013    
+Resource 2.NumberSeized                     228.00    
+Resource 2.ScheduledUtilization             .94172    
+System.NumberOut                            227.00    
+
+Beginning replication 14 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 14 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.9881     (Insuf)    1.3079     2.6962        228    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        228    
+Entity 1.WaitTime                           8.2413     (Insuf)    .00000     14.503        228    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        228    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        228    
+Entity 1.TotalTime                          10.229     (Insuf)    1.8114     16.531        228    
+Process 1.Queue.WaitingTime                 7.6303     (Insuf)    .00000     13.929        231    
+Process 2.Queue.WaitingTime                 .52629     (Insuf)    .00000     1.8908        229    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                9.7495     (Corr)     .00000     18.000     5.0000    
+Resource 1.NumberBusy                       .96809     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .96809     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .92931     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .92931     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               7.3495     (Corr)     .00000     15.000     2.0000    
+Process 2.Queue.NumberInQueue               .50264     (Corr)     .00000     2.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           233.00    
+Entity 1.NumberOut                          228.00    
+Resource 1.NumberSeized                     231.00    
+Resource 1.ScheduledUtilization             .96809    
+Resource 2.NumberSeized                     229.00    
+Resource 2.ScheduledUtilization             .92931    
+System.NumberOut                            228.00    
+
+Beginning replication 15 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 15 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.9925     (Insuf)    1.2875     2.8125        227    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        227    
+Entity 1.WaitTime                           5.1691     (Insuf)    .00000     15.891        227    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        227    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        227    
+Entity 1.TotalTime                          7.1617     (Insuf)    1.7616     17.852        227    
+Process 1.Queue.WaitingTime                 4.5414     (Insuf)    .00000     13.960        231    
+Process 2.Queue.WaitingTime                 .61863     (Insuf)    .00000     2.0184        228    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                6.8978     (Corr)     .00000     17.000     8.0000    
+Resource 1.NumberBusy                       .96054     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .96054     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .94054     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .94054     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               4.4017     (Corr)     .00000     15.000     4.0000    
+Process 2.Queue.NumberInQueue               .59501     (Corr)     .00000     3.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           235.00    
+Entity 1.NumberOut                          227.00    
+Resource 1.NumberSeized                     231.00    
+Resource 1.ScheduledUtilization             .96054    
+Resource 2.NumberSeized                     228.00    
+Resource 2.ScheduledUtilization             .94054    
+System.NumberOut                            227.00    
+
+Beginning replication 16 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 16 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             2.0208     (Insuf)    1.1666     2.8302        229    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        229    
+Entity 1.WaitTime                           17.663     (Insuf)    .00000     37.336        229    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        229    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        229    
+Entity 1.TotalTime                          19.683     (Insuf)    1.7245     39.053        229    
+Process 1.Queue.WaitingTime                 17.287     (Insuf)    .00000     35.844        233    
+Process 2.Queue.WaitingTime                 .68494     (Insuf)    .00000     2.6857        230    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                22.381     (Corr)     .00000     48.000     47.000    
+Resource 1.NumberBusy                       .98538     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .98538     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .95876     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .95876     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               19.777     (Corr)     .00000     45.000     43.000    
+Process 2.Queue.NumberInQueue               .65990     (Corr)     .00000     3.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           276.00    
+Entity 1.NumberOut                          229.00    
+Resource 1.NumberSeized                     233.00    
+Resource 1.ScheduledUtilization             .98538    
+Resource 2.NumberSeized                     230.00    
+Resource 2.ScheduledUtilization             .95876    
+System.NumberOut                            229.00    
+
+Beginning replication 17 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 17 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             2.0012     (Insuf)    1.3440     2.6550        215    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        215    
+Entity 1.WaitTime                           4.4488     (Insuf)    .00000     12.753        215    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        215    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        215    
+Entity 1.TotalTime                          6.4501     (Insuf)    1.5950     14.800        215    
+Process 1.Queue.WaitingTime                 3.5639     (Insuf)    .00000     12.627        220    
+Process 2.Queue.WaitingTime                 .90814     (Insuf)    .00000     3.3355        216    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.9603     (Corr)     .00000     15.000     10.000    
+Resource 1.NumberBusy                       .90808     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .90808     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .90436     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .90436     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               3.3107     (Corr)     .00000     12.000     5.0000    
+Process 2.Queue.NumberInQueue               .83712     (Corr)     .00000     4.0000     3.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           225.00    
+Entity 1.NumberOut                          215.00    
+Resource 1.NumberSeized                     220.00    
+Resource 1.ScheduledUtilization             .90808    
+Resource 2.NumberSeized                     216.00    
+Resource 2.ScheduledUtilization             .90436    
+System.NumberOut                            215.00    
+
+Beginning replication 18 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 18 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.9919     (Insuf)    1.2693     2.8572        229    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        229    
+Entity 1.WaitTime                           8.5991     (Insuf)    .00000     18.477        229    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        229    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        229    
+Entity 1.TotalTime                          10.591     (Insuf)    1.6297     20.480        229    
+Process 1.Queue.WaitingTime                 6.2205     (Insuf)    .00000     14.924        235    
+Process 2.Queue.WaitingTime                 2.2530     (Insuf)    .00000     5.8511        230    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                10.225     (Corr)     .00000     22.000     9.0000    
+Resource 1.NumberBusy                       .96906     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .96906     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .95718     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .95718     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               6.0995     (Corr)     .00000     15.000     3.0000    
+Process 2.Queue.NumberInQueue               2.1998     (Corr)     .00000     6.0000     4.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           238.00    
+Entity 1.NumberOut                          229.00    
+Resource 1.NumberSeized                     235.00    
+Resource 1.ScheduledUtilization             .96906    
+Resource 2.NumberSeized                     230.00    
+Resource 2.ScheduledUtilization             .95718    
+System.NumberOut                            229.00    
+
+Beginning replication 19 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 19 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             2.0118     (Insuf)    1.3315     2.7729        221    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        221    
+Entity 1.WaitTime                           5.2958     (Insuf)    .00000     15.395        221    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        221    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        221    
+Entity 1.TotalTime                          7.3077     (Insuf)    1.4570     17.147        221    
+Process 1.Queue.WaitingTime                 4.4601     (Insuf)    .00000     15.181        225    
+Process 2.Queue.WaitingTime                 1.0197     (Insuf)    .00000     3.7316        222    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                7.3416     (Corr)     .00000     19.000     14.000    
+Resource 1.NumberBusy                       .94735     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .94735     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .92131     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .92131     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               4.5231     (Corr)     .00000     17.000     10.000    
+Process 2.Queue.NumberInQueue               .94985     (Corr)     .00000     5.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           235.00    
+Entity 1.NumberOut                          221.00    
+Resource 1.NumberSeized                     225.00    
+Resource 1.ScheduledUtilization             .94735    
+Resource 2.NumberSeized                     222.00    
+Resource 2.ScheduledUtilization             .92131    
+System.NumberOut                            221.00    
+
+Beginning replication 20 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 20 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.9829     (Insuf)    1.1937     2.7775        213    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        213    
+Entity 1.WaitTime                           10.793     (Insuf)    .00000     23.299        213    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        213    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        213    
+Entity 1.TotalTime                          12.776     (Insuf)    1.4031     24.857        213    
+Process 1.Queue.WaitingTime                 10.376     (Insuf)    .00000     22.799        216    
+Process 2.Queue.WaitingTime                 .45864     (Insuf)    .00000     2.3355        214    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                11.735     (Corr)     .00000     25.000     13.000    
+Resource 1.NumberBusy                       .91142     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .91142     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .86169     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .86169     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               9.5510     (Corr)     .00000     23.000     10.000    
+Process 2.Queue.NumberInQueue               .41176     (Insuf)    .00000     3.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           226.00    
+Entity 1.NumberOut                          213.00    
+Resource 1.NumberSeized                     216.00    
+Resource 1.ScheduledUtilization             .91142    
+Resource 2.NumberSeized                     214.00    
+Resource 2.ScheduledUtilization             .86169    
+System.NumberOut                            213.00    
+
+Beginning replication 21 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 21 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             2.0137     (Insuf)    1.3244     2.8466        224    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        224    
+Entity 1.WaitTime                           23.230     (Insuf)    .00000     37.094        224    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        224    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        224    
+Entity 1.TotalTime                          25.243     (Insuf)    1.7521     38.748        224    
+Process 1.Queue.WaitingTime                 21.001     (Insuf)    .00000     32.534        231    
+Process 2.Queue.WaitingTime                 2.1466     (Insuf)    .00000     4.9510        225    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                25.075     (Corr)     .00000     39.000     29.000    
+Resource 1.NumberBusy                       .95743     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .95743     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .95076     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .95076     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               21.104     (Corr)     .00000     35.000     22.000    
+Process 2.Queue.NumberInQueue               2.0629     (Corr)     .00000     6.0000     5.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           253.00    
+Entity 1.NumberOut                          224.00    
+Resource 1.NumberSeized                     231.00    
+Resource 1.ScheduledUtilization             .95743    
+Resource 2.NumberSeized                     225.00    
+Resource 2.ScheduledUtilization             .95076    
+System.NumberOut                            224.00    
+
+Beginning replication 22 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 22 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             2.0380     (Insuf)    1.3548     2.6903        230    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        230    
+Entity 1.WaitTime                           15.255     (Insuf)    .00000     26.218        230    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        230    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        230    
+Entity 1.TotalTime                          17.293     (Insuf)    1.8688     27.756        230    
+Process 1.Queue.WaitingTime                 12.859     (Insuf)    .00000     24.077        238    
+Process 2.Queue.WaitingTime                 2.5396     (Insuf)    .00000     5.5603        231    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                17.881     (Corr)     .00000     29.000     25.000    
+Resource 1.NumberBusy                       .99861     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .99861     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .98880     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .98880     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               13.370     (Corr)     .00000     24.000     17.000    
+Process 2.Queue.NumberInQueue               2.5244     (Corr)     .00000     6.0000     6.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           255.00    
+Entity 1.NumberOut                          230.00    
+Resource 1.NumberSeized                     238.00    
+Resource 1.ScheduledUtilization             .99861    
+Resource 2.NumberSeized                     231.00    
+Resource 2.ScheduledUtilization             .98880    
+System.NumberOut                            230.00    
+
+Beginning replication 23 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 23 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             2.0060     (Insuf)    1.3512     2.6445        219    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        219    
+Entity 1.WaitTime                           3.1550     (Insuf)    .00000     9.3718        219    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        219    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        219    
+Entity 1.TotalTime                          5.1610     (Insuf)    1.4396     11.300        219    
+Process 1.Queue.WaitingTime                 2.4489     (Insuf)    .00000     8.8952        221    
+Process 2.Queue.WaitingTime                 .69460     (Insuf)    .00000     2.3896        220    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                4.7318     (Corr)     .00000     11.000     4.0000    
+Resource 1.NumberBusy                       .91755     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .91755     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .91815     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .91815     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               2.2594     (Corr)     .00000     8.0000     2.0000    
+Process 2.Queue.NumberInQueue               .63671     (Corr)     .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           223.00    
+Entity 1.NumberOut                          219.00    
+Resource 1.NumberSeized                     221.00    
+Resource 1.ScheduledUtilization             .91755    
+Resource 2.NumberSeized                     220.00    
+Resource 2.ScheduledUtilization             .91815    
+System.NumberOut                            219.00    
+
+Beginning replication 24 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 24 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             2.0360     (Insuf)    1.2402     2.8460        215    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        215    
+Entity 1.WaitTime                           6.5272     (Insuf)    .00000     19.025        215    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        215    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        215    
+Entity 1.TotalTime                          8.5632     (Insuf)    1.2844     21.108        215    
+Process 1.Queue.WaitingTime                 5.3809     (Insuf)    .00000     16.731        218    
+Process 2.Queue.WaitingTime                 1.0899     (Insuf)    .00000     3.3636        216    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                7.7403     (Corr)     .00000     21.000     6.0000    
+Resource 1.NumberBusy                       .92629     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .92629     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .91708     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .91708     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               4.9113     (Corr)     .00000     18.000     3.0000    
+Process 2.Queue.NumberInQueue               .98566     (Corr)     .00000     4.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           221.00    
+Entity 1.NumberOut                          215.00    
+Resource 1.NumberSeized                     218.00    
+Resource 1.ScheduledUtilization             .92629    
+Resource 2.NumberSeized                     216.00    
+Resource 2.ScheduledUtilization             .91708    
+System.NumberOut                            215.00    
+
+Beginning replication 25 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 25 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.9480     (Insuf)    1.2745     2.6555        237    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        237    
+Entity 1.WaitTime                           7.6772     (Insuf)    .00000     16.343        237    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        237    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        237    
+Entity 1.TotalTime                          9.6252     (Insuf)    1.5572     18.179        237    
+Process 1.Queue.WaitingTime                 6.5393     (Insuf)    .00000     16.073        238    
+Process 2.Queue.WaitingTime                 1.1343     (Insuf)    .00000     3.6580        237    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                9.5768     (Corr)     .00000     19.000     6.0000    
+Resource 1.NumberBusy                       .97347     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .97347     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .95391     (Insuf)    .00000     1.0000     .00000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .95391     (Insuf)    .00000     1.0000     .00000    
+Process 1.Queue.NumberInQueue               6.5293     (Corr)     .00000     16.000     5.0000    
+Process 2.Queue.NumberInQueue               1.1201     (Corr)     .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           243.00    
+Entity 1.NumberOut                          237.00    
+Resource 1.NumberSeized                     238.00    
+Resource 1.ScheduledUtilization             .97347    
+Resource 2.NumberSeized                     237.00    
+Resource 2.ScheduledUtilization             .95391    
+System.NumberOut                            237.00    
+
+Beginning replication 26 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 26 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             2.0033     (Insuf)    1.2433     2.7674        205    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        205    
+Entity 1.WaitTime                           4.1064     (Insuf)    .00000     16.034        205    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        205    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        205    
+Entity 1.TotalTime                          6.1098     (Insuf)    1.3964     18.096        205    
+Process 1.Queue.WaitingTime                 3.2129     (Insuf)    .00000     12.818        207    
+Process 2.Queue.WaitingTime                 .87037     (Insuf)    .00000     3.6009        206    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.2396     (Corr)     .00000     17.000     4.0000    
+Resource 1.NumberBusy                       .85495     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .85495     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .86330     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .86330     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               2.7742     (Corr)     .00000     14.000     2.0000    
+Process 2.Queue.NumberInQueue               .74707     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           209.00    
+Entity 1.NumberOut                          205.00    
+Resource 1.NumberSeized                     207.00    
+Resource 1.ScheduledUtilization             .85495    
+Resource 2.NumberSeized                     206.00    
+Resource 2.ScheduledUtilization             .86330    
+System.NumberOut                            205.00    
+
+Beginning replication 27 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 27 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.9817     (Insuf)    1.2136     2.6488        225    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        225    
+Entity 1.WaitTime                           4.9844     (Insuf)    .00000     11.560        225    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        225    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        225    
+Entity 1.TotalTime                          6.9661     (Insuf)    1.5008     13.835        225    
+Process 1.Queue.WaitingTime                 4.0521     (Insuf)    .00000     10.624        227    
+Process 2.Queue.WaitingTime                 .89539     (Insuf)    .00000     2.3956        226    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                6.5522     (Corr)     .00000     14.000     4.0000    
+Resource 1.NumberBusy                       .92358     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .92358     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .94652     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .94652     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               3.8390     (Corr)     .00000     11.000     2.0000    
+Process 2.Queue.NumberInQueue               .84316     (Corr)     .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           229.00    
+Entity 1.NumberOut                          225.00    
+Resource 1.NumberSeized                     227.00    
+Resource 1.ScheduledUtilization             .92358    
+Resource 2.NumberSeized                     226.00    
+Resource 2.ScheduledUtilization             .94652    
+System.NumberOut                            225.00    
+
+Beginning replication 28 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 28 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             1.9911     (Insuf)    1.2549     2.7215        232    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        232    
+Entity 1.WaitTime                           9.2675     (Insuf)    .00000     19.363        232    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        232    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        232    
+Entity 1.TotalTime                          11.258     (Insuf)    1.8828     21.614        232    
+Process 1.Queue.WaitingTime                 7.3083     (Insuf)    .00000     16.936        237    
+Process 2.Queue.WaitingTime                 2.0707     (Insuf)    .00000     4.9728        233    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                11.642     (Corr)     .00000     23.000     19.000    
+Resource 1.NumberBusy                       .97629     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .97629     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .96885     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .96885     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               7.6674     (Corr)     .00000     18.000     14.000    
+Process 2.Queue.NumberInQueue               2.0296     (Corr)     .00000     5.0000     3.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           251.00    
+Entity 1.NumberOut                          232.00    
+Resource 1.NumberSeized                     237.00    
+Resource 1.ScheduledUtilization             .97629    
+Resource 2.NumberSeized                     233.00    
+Resource 2.ScheduledUtilization             .96885    
+System.NumberOut                            232.00    
+
+Beginning replication 29 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 29 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             2.0292     (Insuf)    1.1329     2.7455        226    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        226    
+Entity 1.WaitTime                           6.3454     (Insuf)    .00000     16.945        226    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        226    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        226    
+Entity 1.TotalTime                          8.3746     (Insuf)    1.9702     19.340        226    
+Process 1.Queue.WaitingTime                 5.0976     (Insuf)    .00000     13.091        233    
+Process 2.Queue.WaitingTime                 1.4802     (Insuf)    .00000     4.5907        227    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                8.6691     (Corr)     .00000     21.000     20.000    
+Resource 1.NumberBusy                       .96880     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .96880     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .97104     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .97104     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               5.2771     (Corr)     .00000     15.000     13.000    
+Process 2.Queue.NumberInQueue               1.4521     (Corr)     .00000     5.0000     5.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           246.00    
+Entity 1.NumberOut                          226.00    
+Resource 1.NumberSeized                     233.00    
+Resource 1.ScheduledUtilization             .96880    
+Resource 2.NumberSeized                     227.00    
+Resource 2.ScheduledUtilization             .97104    
+System.NumberOut                            226.00    
+
+Beginning replication 30 of 30
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                  Summary for Replication 30 of 30
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+Replication ended at time      : 240.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             2.0004     (Insuf)    1.1560     2.6641        226    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        226    
+Entity 1.WaitTime                           6.7098     (Insuf)    .00000     21.023        226    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        226    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        226    
+Entity 1.TotalTime                          8.7102     (Insuf)    1.1560     23.494        226    
+Process 1.Queue.WaitingTime                 5.3479     (Insuf)    .00000     18.755        229    
+Process 2.Queue.WaitingTime                 1.4101     (Insuf)    .00000     4.0404        227    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                8.4022     (Corr)     .00000     24.000     11.000    
+Resource 1.NumberBusy                       .94314     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .94314     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .95014     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .95014     (Insuf)    .00000     1.0000     1.0000    
+Process 1.Queue.NumberInQueue               5.1738     (Corr)     .00000     19.000     8.0000    
+Process 2.Queue.NumberInQueue               1.3351     (Corr)     .00000     5.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           237.00    
+Entity 1.NumberOut                          226.00    
+Resource 1.NumberSeized                     229.00    
+Resource 1.ScheduledUtilization             .94314    
+Resource 2.NumberSeized                     227.00    
+Resource 2.ScheduledUtilization             .95014    
+System.NumberOut                            226.00    
+
+
+                                      ARENA Simulation Results
+                                     User - License: 7328734345
+
+                                 Output Summary for 30 Replications
+
+Project: Unnamed Project                                             Run execution date : 9/18/2018
+Analyst: Rockwell Automation                                         Model revision date: 9/18/2018
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Entity 1.NumberIn                           241.03     5.8891     209.00     276.00     30
+Entity 1.NumberOut                          225.13     2.8883     205.00     240.00     30
+Resource 1.NumberSeized                     229.50     3.1843     207.00     245.00     30
+Resource 1.ScheduledUtilization             .95081     .01239     .85495     1.0000     30
+Resource 2.NumberSeized                     226.10     2.8692     206.00     241.00     30
+Resource 2.ScheduledUtilization             .94169     .01178     .86169     .99116     30
+System.NumberOut                            225.13     2.8883     205.00     240.00     30
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.
