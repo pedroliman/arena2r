@@ -4,6 +4,8 @@ Title: Arena To R: Nice Plots and Outputs for Arena Simulation Software
 Version: 0.1.0
 Author: Pedro Nascimento de Lima
 Maintainer: Pedro Nascimento de Lima <pedrolima.n@gmail.com>
+Authors@R: person("Pedro", "Lima","Nascimento de", email = "pedrolima.n@gmail.com",
+  role = c("aut", "cre")) 
 Description: This package reads Arena CSV output files and generates nice tables and plots. It does what I think Process Analyzer should do better. Future versions might include validation tests, and an interative Shiny App.
 License: MIT License
 Encoding: UTF-8

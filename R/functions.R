@@ -1,4 +1,4 @@
-## [![Coverage Status](https://img.shields.io/codecov/c/github/pedroliman/arena2r/master.svg)](https://codecov.io/github/pedroliman/arena2r?branch=master)
+## [![Coverage Status](http://img.shields.io/codecov/c/github/pedroliman/arena2r/master.svg)](https://codecov.io/github/pedroliman/arena2r?branch=master)
 
 #' Get Results from Arena CSV Files
 #' Get Results from Arena CSV Files
