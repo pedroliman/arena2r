@@ -88,7 +88,6 @@ get_simulation_results = function(source, source_type = "path") {
 #'
 #' @return a confidence interval plot using ggplot2.
 #' @export
-#' @importFrom magrittr %>%
 #'
 plot_confint = function(sim_results, response_variable) {
 
