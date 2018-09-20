@@ -1,4 +1,5 @@
 library(arena2r)
+library(ggplot2)
 
 dir <- system.file("shiny-examples", "arenaapp", package = "arena2r")
 setwd(dir)

@@ -1,7 +1,7 @@
 Package: arena2r
 Type: Package
 Title: Arena To R: Nice Plots and Outputs for Arena Simulation Software
-Version: 0.1.0
+Version: 1.0.0
 Author: Pedro Nascimento de Lima
 Maintainer: Pedro Nascimento de Lima <pedrolima.n@gmail.com>
 Authors@R: person("Pedro", "Lima","Nascimento de", email = "pedrolima.n@gmail.com",

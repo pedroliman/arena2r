@@ -3,25 +3,49 @@
 arena2r
 =======
 
-[![Travis-CI Build Status](http://travis-ci.org/pedroliman/arena2r.svg?branch=master)](https://travis-ci.org/pedroliman/arena2r) [![Coverage Status](http://img.shields.io/codecov/c/github/pedroliman/arena2r/master.svg)](https://codecov.io/github/pedroliman/arena2r?branch=master)
+[![Travis-CI Build Status](http://travis-ci.org/pedroliman/arena2r.svg?branch=master)](https://travis-ci.org/pedroliman/arena2r)
 
-The goal of arena2r is to facilitate the analysis of Arena Simulation Software output in R. This package will be usefull to you, if:
+The goal of arena2r is to facilitate the analysis of Arena Simulation Software output in R. This figure illustrates what it does.
+
+![What arena2r does.](arena-2-r-plots.png)
+
+This package will be usefull to you, if:
 
 1.  You are an useR;
 2.  You use Arena Simulation;
 3.  You dislike Arena's simulation Process Analyzer, or similar tools, and have seen yourself struggling to summarise simulation results by hand at excel;
 4.  You want to get your Arena Simulation Output directly to R and have a tidy data.frame with all your results to run your analyses there seamlessly.
 
-I have seen myself in this position many times and resolved to put together a package and stop doing repetitive work.
+I have seen myself in this position many times and resolved to put together a package and stop doing repetitive work, so you can get from Arena results to nice plots in seconds, not hours.
+
+Usage
+-----
+
+You can use arena2r online with the demo shiny app at:
+
+<https://pedrolima.shinyapps.io/arena2r/>
+
+Alternatively, you can install it in your R envinronment.
 
 Installation
 ------------
 
-You can install arena2r from github with:
+You can install arena2r from github in R with:
 
 ``` r
 # install.packages("devtools")
 devtools::install_github("pedroliman/arena2r")
+```
+
+Use the App locally:
+--------------------
+
+After installing, load the library and run the demo app.
+
+``` r
+library(arena2r)
+
+runArenaApp()
 ```
 
 Example
@@ -51,6 +75,23 @@ library(arena2r)
 #> 
 #>     intersect, setdiff, setequal, union
 #> Loading required package: purrr
+#> Loading required package: shiny
+#> Loading required package: shinydashboard
+#> 
+#> Attaching package: 'shinydashboard'
+#> The following object is masked from 'package:graphics':
+#> 
+#>     box
+#> Loading required package: shinyBS
+#> Loading required package: shinyjs
+#> 
+#> Attaching package: 'shinyjs'
+#> The following object is masked from 'package:shiny':
+#> 
+#>     runExample
+#> The following objects are masked from 'package:methods':
+#> 
+#>     removeClass, show
 library(ggplot2)
 
 # Define the path to your folder with csv files. In my case, it's here:
@@ -61,7 +102,7 @@ my_path = paste0(getwd(), "/files/Arena14")
 
 # Then, get a tidy results data.frame out of your files!
 
-results = arena2r::get_simulation_results(path = my_path)
+results = arena2r::get_simulation_results(my_path)
 
 knitr::kable(head(results))
 ```

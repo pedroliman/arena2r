@@ -5,8 +5,8 @@ account: pedrolima
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 458649
-bundleId: 1596417
+bundleId: 1596429
 url: https://pedrolima.shinyapps.io/arena2r/
-when: 1537469110.6649
+when: 1537469552.40745
 asMultiple: FALSE
 asStatic: FALSE
