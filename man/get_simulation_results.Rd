@@ -5,10 +5,12 @@
 \title{Get Results from Arena CSV Files
 Get Results from Arena CSV Files}
 \usage{
-get_simulation_results(path)
+get_simulation_results(source, source_type = "path")
 }
 \arguments{
-\item{path}{The path where csv files is stored. If you do not provide a value, I'll assume they're on your current working directory.}
+\item{source}{The path where csv files is stored, or a list coming from shiny. If you do not provide a value, I'll assume they're on your current working directory.}
+
+\item{source}{String that describes where the data is coming from. "path" stands for a path that contains all csv files. "shinyInput" stands for the list object returned by fileInput in the ShinyApp}
 }
 \value{
 a tidy dataframe with simulation results.

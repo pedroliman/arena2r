@@ -6,7 +6,7 @@ my_path = getwd()
 
 # Generate Plots and Dataframes
 
-results = arena2r::get_simulation_results(path = my_path)
+results = arena2r::get_simulation_results(my_path)
 
 summary = arena2r::get_statistics_summary(sim_results = results)
 

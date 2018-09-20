@@ -17,7 +17,11 @@ Imports:
 Depends:
     ggplot2,
     dplyr,
-    purrr
+    purrr,
+    shiny,
+    shinydashboard,
+    shinyBS,
+    shinyjs
 Suggests: testthat,
     covr
 RoxygenNote: 6.1.0
