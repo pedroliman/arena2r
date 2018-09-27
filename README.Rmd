@@ -58,86 +58,9 @@ runArenaApp()
 
 ```
 
-## Example
+## How to use
 
-This is a basic example which shows you how to get your Arena results quickly into R. The basic idea is to run different scenarios and save each of them to a separate csv file. (Yes, you could use Process Analyzer (PAN) to run all scenarios, but to my knowledge there's no way to get your data out of the PAN easily).
-
-Follow these steps to get Arena simulation scenarios to R:
-
-* Run your model with $n$ replications. Do not change the number of replications between scenarios.
-* For each scenario, save a csv with simulation results clicking on "Tools > ReportDatabase > Export Summary Statistics to CSV File". Use the standard options. If Arena throws an error, then you'll have to figure out how to get your results to a csv file. Sometimes it's necessary to save the report database as a \*.mdb file before generating the csv file.
-
-* Open a new .R file, and run the following code:
-
-```{r example}
-# Load the library:
-
-library(arena2r)
-library(ggplot2)
-
-# Define the path to your folder with csv files. In my case, it's here:
-
-# If you don't have any Arena csv files to play with, you can download my files in this repository.
-
-my_path = paste0(getwd(), "/files/Arena14")
-
-# Then, get a tidy results data.frame out of your files!
-
-results = arena2r::get_simulation_results(my_path)
-
-knitr::kable(head(results))
-
-
-```
-
-After these steps, now you have a tidy data.frame with your results. Let's get into possible visualizations. Usually you'll be interested in the mean confidence interval for some response variable, across scenarios.
-
-```{r}
-
-# Plot a Statistic confidence interval across scenarios!
-
-arena2r::plot_confint(sim_results = results, response_variable = "Entity 1.NumberOut")
-
-```
-
-Now let's explore the relationship between two variables, across scenarios and replications:
-
-```{r}
-
-# Now let's plot analyse the relationship between two variables:
-
-arena2r::plot_scatter(sim_results = results, x_variable = "Entity 1.NumberIn", y_variable = "Entity 1.NumberOut")
-
-```
-
-Now let's go a bit deeper and leverage ggplot2 to create a plot faceted by Scenario:
-
-```{r}
-
-# If you use ggplot and you want to get more customized plots, I suggest you to spread your data.frame:
-
-wide_results = results %>%
-    tidyr::spread(Statistic, Value)
-
-# Recreating my plot with ggplot, now loking at Resource Utilization:
-
-p = ggplot(data = wide_results, mapping = aes(x = `Resource 1.Utilization`, y = `Entity 1.NumberOut`, color = Scenario)) + geom_point() + facet_wrap(~Scenario)
-
-p
-
-```
-
-Finally, let's summarise every statistic across all scenarios.
-
-```{r, warning=FALSE}
-
-statistics_summary = arena2r::get_statistics_summary(sim_results = results, confidence = 0.95)
-
-knitr::kable(head(statistics_summary))
-
-
-```
-
+Please follow the [instructions on this tutorial](https://www.pedronl.com/post/arena2r-package-tutorial/) to use Arena2r.
 
 
 ## Wishlist
