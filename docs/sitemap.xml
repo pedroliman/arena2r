@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://arena2r.pedronl.com/index.html</loc>
+  </url>
+  <url>
+    <loc>https://arena2r.pedronl.com/reference/get_simulation_results.html</loc>
+  </url>
+  <url>
+    <loc>https://arena2r.pedronl.com/reference/get_statistics_summary.html</loc>
+  </url>
+  <url>
+    <loc>https://arena2r.pedronl.com/reference/plot_confint.html</loc>
+  </url>
+  <url>
+    <loc>https://arena2r.pedronl.com/reference/plot_scatter.html</loc>
+  </url>
+  <url>
+    <loc>https://arena2r.pedronl.com/reference/runArenaApp.html</loc>
+  </url>
+</urlset>

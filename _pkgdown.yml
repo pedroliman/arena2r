@@ -1,0 +1,12 @@
+url: https://arena2r.pedronl.com
+
+authors:
+  Pedro Nascimento de Lima:
+    href: https://pedronl.com
+
+template:
+  params:
+    docsearch:
+      api_key: 3cdd36925978aefb93ade1aec28c1e8b
+      index_name: arena2r
+
