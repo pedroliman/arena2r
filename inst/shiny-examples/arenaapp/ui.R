@@ -1,3 +1,10 @@
+library(arena2r)
+library(ggplot2)
+library(shiny)
+library(shinydashboard)
+library(shinyBS)
+library(shinyjs)
+library(shinythemes)
 
 ui <- shinyUI(dashboardPage(
   skin = "blue",
