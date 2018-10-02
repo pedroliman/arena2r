@@ -1,5 +1,5 @@
 ---
-title: "Arena2R Vignette"
+title: "Introduction to Arena2R"
 author: "Pedro Nascimento de Lima"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
