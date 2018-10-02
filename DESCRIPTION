@@ -1,12 +1,12 @@
 Package: arena2r
 Type: Package
-Title: Arena2R - Plots, Summary Statistics and Tools for Arena Simulation Users
+Title: Plots, Summary Statistics and Tools for Arena Simulation Users
 Version: 1.0.0
 Author: Pedro Nascimento de Lima [aut, cre]
 Maintainer: Pedro Nascimento de Lima <pedrolima.n@gmail.com>
 Authors@R: person("Pedro Nascimento de", "Lima", email = "pedrolima.n@gmail.com",
   role = c("aut", "cre")) 
-Description: Reads Arena CSV output files and generates nice tables and plots. The package contains a Shiny App that can be used to interactively visualize Arena's results.
+Description: Reads Arena <https://www.arenasimulation.com/> CSV output files and generates nice tables and plots. The package contains a Shiny App that can be used to interactively visualize Arena's results.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
