@@ -1,5 +1,10 @@
 library(arena2r)
 library(ggplot2)
+library(shiny)
+library(shinydashboard)
+library(shinyBS)
+library(shinyjs)
+library(shinythemes)
 
 dir <- system.file("shiny-examples", "arenaapp", package = "arena2r")
 setwd(dir)

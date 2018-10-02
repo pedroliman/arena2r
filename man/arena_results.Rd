@@ -3,7 +3,7 @@
 \docType{data}
 \name{arena_results}
 \alias{arena_results}
-\title{Test Dataset wit Arena Results}
+\title{Test Dataset with Arena Results}
 \format{A data frame with 2280 rows and 4 variables:
 \describe{
   \item{Scenario}{The Scenario Name}
