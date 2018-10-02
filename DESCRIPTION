@@ -1,8 +1,8 @@
 Package: arena2r
 Type: Package
-Title: Arena2R - Nice Plots And Outputs For Arena Simulation
+Title: Arena2R - Plots, Summary Statistics and Tools for Arena Simulation Users
 Version: 1.0.0
-Author: Pedro Nascimento de Lima
+Author: Pedro Nascimento de Lima [aut, cre]
 Maintainer: Pedro Nascimento de Lima <pedrolima.n@gmail.com>
 Authors@R: person("Pedro Nascimento de", "Lima", email = "pedrolima.n@gmail.com",
   role = c("aut", "cre")) 
