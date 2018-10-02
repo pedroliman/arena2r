@@ -15,7 +15,8 @@ server <- function(input, output, session) {
 
   })
 
-  sim_summary = reactive({
+  # Head of Simulation Results
+  sim_head_results = reactive({
 
     results = sim_results()
 
@@ -25,11 +26,26 @@ server <- function(input, output, session) {
 
       head(results)
 
-      #get_statistics_summary(sim_results = results)
     }
 
   })
 
+  # Statistics Summary
+  sim_summary = reactive({
+
+    results = sim_results()
+
+    if(is.null(results)){
+      return(NULL)
+    } else {
+
+      suppressWarnings(get_statistics_summary(sim_results = results))
+
+    }
+
+  })
+
+  # Statists List
   statistics_list = reactive({
     results = sim_results()
 
@@ -52,13 +68,25 @@ server <- function(input, output, session) {
 
   })
 
-  # Outputs
+#  Outputs - Plots
   output$confint_plot = renderPlot({
 
     if(is.null(statistics_list())){
       return(NULL)
     } else {
       plot_confint(sim_results = sim_results(),
+                   response_variable = input$variavelConfInt)
+    }
+
+
+  })
+
+  output$box_plot = renderPlot({
+
+    if(is.null(statistics_list())){
+      return(NULL)
+    } else {
+      plot_box(sim_results = sim_results(),
                    response_variable = input$variavelConfInt)
     }
 
@@ -78,8 +106,24 @@ server <- function(input, output, session) {
 
   })
 
+#  Outputs - Rendered Tables
   output$summary <- renderDataTable({
     sim_summary()
   })
+
+  output$head_results <- renderDataTable({
+    sim_head_results()
+  })
+
+  #  Outputs - Summary Stats
+  output$downloadData <- downloadHandler(
+    filename = function() {
+      paste("statistics_summary", ".csv", sep = "")
+    },
+    content = function(file) {
+      write.csv(sim_summary(), file, row.names = FALSE)
+    }
+  )
+
 
 }

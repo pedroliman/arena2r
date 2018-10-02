@@ -10,7 +10,8 @@ ui <- shinyUI(dashboardPage(
       id = "tabs",
       menuItem("Import Arena Data",tabName = "data_tab", icon = icon("database")),
       menuItem("Confidence Interval Plot",tabName = "conf_int_tab", icon = icon("bar-chart")),
-      menuItem("Scatter Plot",tabName = "scatter_tab", icon = icon("bar-chart"))
+      menuItem("Scatter Plot",tabName = "scatter_tab", icon = icon("bar-chart")),
+      menuItem("Results Summary",tabName = "summary_tab", icon = icon("database"))
     )
 
   ), # END dashboardSidebar
@@ -26,15 +27,16 @@ ui <- shinyUI(dashboardPage(
                             accept=c('text/csv',
                                      'text/comma-separated-values,text/plain',
                                      '.csv')),
-                  dataTableOutput("summary")
+                  dataTableOutput("head_results")
               )
 
       ), # END data_tab
 
       tabItem("conf_int_tab",
-              box(width = 8, title = 'Confidence Interval Plot by Scenario', solidHeader = T, status = 'primary',
+              box(width = 8, title = 'Confidence Interval & Box Plot by Scenario', solidHeader = T, status = 'primary',
                   selectizeInput('variavelConfInt',"Select Variable", choices = NULL, multiple = F),
-                  plotOutput("confint_plot")
+                  plotOutput("confint_plot"),
+                  plotOutput("box_plot")
               )
       ), # END tabItem "data_iniciativa"
 
@@ -44,7 +46,13 @@ ui <- shinyUI(dashboardPage(
                   selectizeInput('VariavelYScatter',"Select Y Variable", choices = NULL, multiple = F),
                   plotOutput("scatter_plot")
               )
-      ) # END tabItem
+      ), # END tabItem
+
+      tabItem("summary_tab",
+                  "Upload your data and wait. A table will show up here shortly.",
+                  dataTableOutput("summary"),
+                  downloadButton("downloadData", "Download Summary Statistics")
+      ) # END data_tab
     ) # END tabItems
   ) # END dashboardBody
 )) # END dashboardPage
