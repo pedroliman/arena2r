@@ -17,3 +17,8 @@ a box plot using ggplot2.
 \description{
 Plots a box plot for a response variable, across different simulated scenarios.
 }
+\examples{
+library(arena2r)
+
+plot_box(arena_results, "Entity 1.NumberOut")
+}

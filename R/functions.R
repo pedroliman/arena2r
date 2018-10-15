@@ -12,6 +12,12 @@
 #' @export
 #' @importFrom magrittr %>%
 #' @importFrom utils read.csv
+#' @examples
+#' # Define de path where your csv files are:
+#' path <- system.file("extdata", package = "arena2r")
+#' simulation_results = get_simulation_results(path)
+#' head(simulation_results)
+
 get_simulation_results = function(source, source_type = "path") {
 
   if (missing(source)) {
@@ -89,6 +95,10 @@ get_simulation_results = function(source, source_type = "path") {
 #' @export
 #' @importFrom magrittr %>%
 #' @importFrom rlang .data
+#' @examples
+#' library(arena2r)
+#'
+#' plot_confint(arena_results, "Entity 1.WaitTime")
 plot_confint = function(sim_results, response_variable) {
 
   sim_results = sim_results %>%
@@ -118,6 +128,10 @@ plot_confint = function(sim_results, response_variable) {
 #' @export
 #' @importFrom magrittr %>%
 #' @importFrom rlang .data
+#' @examples
+#' library(arena2r)
+#'
+#' plot_scatter(arena_results, "Entity 1.NumberOut","Entity 1.WaitTime")
 plot_scatter = function(sim_results, x_variable, y_variable) {
 
   wide_results = sim_results %>%
@@ -145,6 +159,10 @@ plot_scatter = function(sim_results, x_variable, y_variable) {
 #' @export
 #' @importFrom rlang .data
 #' @importFrom magrittr %>%
+#' @examples
+#' library(arena2r)
+#'
+#' plot_box(arena_results, "Entity 1.NumberOut")
 plot_box = function(sim_results, response_variable) {
 
   sim_results = sim_results %>%
@@ -177,6 +195,11 @@ plot_box = function(sim_results, response_variable) {
 #' @importFrom stats qt
 #' @importFrom stats sd
 #' @importFrom rlang .data
+#' @examples
+#' library(arena2r)
+#'
+#' statistics_summary = get_statistics_summary(arena_results)
+#' head(statistics_summary)
 get_statistics_summary = function(sim_results, confidence = 0.95) {
 
   n = length(unique(sim_results$Replication))

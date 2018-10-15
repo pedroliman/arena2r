@@ -49,7 +49,7 @@ library(arena2r)
 
 # Define the path to your folder with Arena csv files. In my case, it's here:
 
-my_path = "../../../arena2r/inst/Arena14/"
+my_path = system.file("extdata", package = "arena2r")
 
 # Then, get a tidy results data.frame out of your files!
 results = arena2r::get_simulation_results(my_path)

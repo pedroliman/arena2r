@@ -17,3 +17,9 @@ a data.frame with a summary for every Statistic
 \description{
 Makes a summary table to every statistic available
 }
+\examples{
+library(arena2r)
+
+statistics_summary = get_statistics_summary(arena_results)
+head(statistics_summary)
+}

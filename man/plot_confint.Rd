@@ -17,3 +17,8 @@ a confidence interval plot using ggplot2.
 \description{
 Plots the confidence interval for a response variable, across different simulated scenarios.
 }
+\examples{
+library(arena2r)
+
+plot_confint(arena_results, "Entity 1.WaitTime")
+}

@@ -19,3 +19,8 @@ a scatter plot showing individual replication results
 \description{
 Scatter Plot
 }
+\examples{
+library(arena2r)
+
+plot_scatter(arena_results, "Entity 1.NumberOut","Entity 1.WaitTime")
+}
