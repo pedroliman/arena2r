@@ -1,7 +1,8 @@
 pandoc: 1.19.2.1
 pkgdown: 1.1.0
 pkgdown_sha: ~
-articles: []
+articles:
+  arena2r-vignette: arena2r-vignette.html
 urls:
   reference: https://arena2r.pedronl.com/reference
   article: https://arena2r.pedronl.com/articles
